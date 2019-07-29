@@ -14,8 +14,4 @@ const addStringQuotes = function(word) {
   return word;
 };
 
-//TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("bob", "bob");
-assertEqual(1, 2);
+module.exports = assertEqual;

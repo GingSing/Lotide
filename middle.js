@@ -33,8 +33,7 @@ let middle = function(arr) {
   }else{
     return [arr[midpoint]];
   }
-
-}
+};
 
 console.log(assertArraysEqual(middle([1, 2, 3]), [2]));
 console.log(assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]));
